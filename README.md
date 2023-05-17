@@ -2,7 +2,7 @@
 
 
 
-- live link: https://pee-tee-mawnd.web.app/
+- live link: petitmondeplay.web.app
 
 - Server Repo Link: https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-syedmirhabib
 
