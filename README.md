@@ -15,7 +15,6 @@ Welcome to the b7a11 Toy Marketplace! This is the client-side repository for the
 - Checkout and place orders
 - View order history and details
 - Manage user profile and update personal information
-- Admin panel to manage toy listings, users, and orders
 - Integration with Firebase for authentication and real-time database
 - Responsive design for a seamless experience on different devices
 
