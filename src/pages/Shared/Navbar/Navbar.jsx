@@ -6,7 +6,9 @@ const Navbar = () => {
   <div className="flex-1">
     <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
   </div>
+
   <div className="flex-none">
+
     <div className="dropdown dropdown-end">
       <label tabIndex={0} className="btn btn-ghost btn-circle">
         <div className="indicator">
@@ -18,12 +20,13 @@ const Navbar = () => {
         <div className="card-body">
           <span className="font-bold text-lg">8 Items</span>
           <span className="text-info">Subtotal: $999</span>
-          <div className="card-actions">
+          <div className="card-bordered">
             <button className="btn btn-primary btn-block">View cart</button>
           </div>
         </div>
       </div>
     </div>
+
     <div className="dropdown dropdown-end">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
@@ -41,7 +44,9 @@ const Navbar = () => {
         <li><a>Logout</a></li>
       </ul>
     </div>
+
   </div>
+  
 </div>
     );
 };

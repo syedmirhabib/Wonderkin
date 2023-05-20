@@ -1,17 +1,23 @@
+import { Link } from "react-router-dom";
+import logo from './../../assets/icons/logo.png';
 
 const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-lime-100 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md  w-full space-y-8">
+      <div className="max-w-md w-full space-y-8">
         <div>
+          <img className="mx-auto h-12 w-auto" src={logo} alt="Logo" />
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
             Log in to your account
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
-            Or{' '}
-            <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+            Or{" "}
+            <Link
+              to="/SignUp"
+              className="font-medium text-indigo-600 hover:text-indigo-500"
+            >
               create a new account
-            </a>
+            </Link>
           </p>
         </div>
         <form className="mt-8 space-y-6" action="#" method="POST">
@@ -55,13 +61,19 @@ const Login = () => {
                 type="checkbox"
                 className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
               />
-              <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-900">
+              <label
+                htmlFor="remember-me"
+                className="ml-2 block text-sm text-gray-900"
+              >
                 Remember me
               </label>
             </div>
 
             <div className="text-sm">
-              <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+              <a
+                href="#"
+                className="font-medium text-indigo-600 hover:text-indigo-500"
+              >
                 Forgot your password?
               </a>
             </div>
@@ -82,16 +94,12 @@ const Login = () => {
                 >
                   <path
                     fillRule="evenodd"
-                    d="M10 12a2 2 0 100-4 2 2 0 000 4z"
-                  />
-                  <path
-                    fillRule="evenodd"
-                    d="M2 10a8 8 0 1116 0 8 8 0 01-16 0zm8-6a6 6 0 00-6 6v2a6 6 0 1012 0V10a6 6 0 00-6-6zm4 7h2a1 1 0 011 1v1a1 1 0 01-1 1h-2v-1a1 1 0 011-1z"
+                    d="M10 3a1 1 0 0 0-1 1v1.586L5.707 5.293a1 1 0 1 0-1.414 1.414L8.586 10l-4.293 4.293a1 1 0 0 0 1.414 1.414L10 12.414V14a1 1 0 0 0 2 0v-1.586l2.293 2.293a1 1 0 0 0 1.414-1.414L11.414 10l4.293-4.293a1 1 0 0 0-1.414-1.414L12 7.586V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1h-1.586l-2.293-2.293A1 1 0 0 0 10 5.586V3z"
                     clipRule="evenodd"
                   />
                 </svg>
               </span>
-              Sign in
+              Log in
             </button>
           </div>
         </form>
@@ -131,13 +139,15 @@ const Login = () => {
                 <path
                   fillRule="evenodd"
                   clipRule="evenodd"
-                  d="M12 3c5.79 0 10.5 4.71 10.5 10.5S17.79 24 12 24 1.5 19.29 1.5 13 6.21 2.5 12 2.5zm.624 11.578c-.362.184-.774.312-1.224.312H8.775c-.45 0-.862-.128-1.224-.312L7.95 13.14c-.16-.112-.336-.2-.55-.2H5.72c-.537 0-.973.41-.973.915v.787c0 .172.142.314.314.314h1.383c.25 0 .422-.204.35-.45l-.067-.25c-.148-.36-.22-.776-.22-1.263v-.502c0-.49.073-.905.22-1.264l.067-.25c.072-.247-.1-.45-.35-.45H5.34c-.173 0-.314.142-.314.315v.787c0 .63-.045 1.014-.012 1.265l.067.237c.16.342.426.58.774.687.34.106 1.01.145 2.01.145h1.8c.53 0 .8.4.8.85v1.13c0 .45-.27.85-.8.85h-1.92c-1.16 0-1.95.038-2.345-.4l-.22-.2c-.43-.36-.86-.47-1.45-.47H5.304c-.172 0-.314.142-.314.314v.787c0 .68-.092 1.29-.35 1.748l-.203.32c-.34.458-.022 1.093-.678 1.093h-.607c-.17 0-.314.142-.314.315v1.195c0 .173.142.314.314.314h.83c.956 0 1.486-.06 2.033-.4l.27-.21c.47-.38.874-.56 1.58-.56h.482c.172 0 .314-.142.314-.314v-.787c0-.605.19-1.235.61-1.655l.186-.19c.435-.44.907-.65 1.64-.65h1.55c.172 0 .314-.142.314-.314v-.922c0-.173-.142-.315-.314-.315h-.697z"
+                  d="M12 3c5.79 0 10.5 4.71 10.5 10.5S17.79 24 12 24 1.5 19.29 1.5 13 6.21 2.5 12 2.5zm.624 11.578c-.362.184-.774.312-1.224.312H8.775c-.45 0-.862-.128-1.224-.312L7.95 13.14c-.16-.112-.336-.2-.55-.2H5.72c-.537 0-.973.41-.973.915v.787c0 .172.142.314.314.314h1.383c.25 0 .422-.204.35-.45l-.067-.25c-.148-.36-.22-.776-.22-1.263v-.502c0-.49.073-.905.22-1.264l.067-.25c.072-.247-.1-.45-.35-.45H5.34c-.173 0-.314.142-.314.315v.787c0 .63-.045 1.014-.012 1.265l.067.237c.16.342.426.58.774.687.34.106 1.01.145 2.01.145h1.8c.53 0 .8.4.8.85v1.13c0 .45-.27.85-.8.85h-1.92c-1.16 0-1.95.038-2.345-.4l-.22-.2c-.43-.36-.86-.47-1.45-.47H5.304c-.172 0-.314.142-.314.314v.787c0 .68-.092 1.29-.35 1.748l-.203.32c-.34.458-.022 1.093-.678 1.093h-.607c-.17 0-.314.142-.314.315v1.195c0 .173.142.314.314.314h.83c.956 0 1.486-.06 2.033-.4l.27-.21c.47-.38.874-.56 1.58-.56h.482c.172 0 .314-.142.314-.314v-.787c0-.315.03-.46.145-.575l.17-.167c.362-.334.774-.502 1.38-.502h.193c.17 0 .314-.142.314-.314V13.24c0-.17-.142-.314-.314-.314h-.506c-.218 0-.424.038-.583.153l-.25.214z"
                 />
               </svg>
-              Sign in with GitHub
+              Sign in with Facebook
             </button>
           </div>
         </div>
+
+
       </div>
     </div>
   );
