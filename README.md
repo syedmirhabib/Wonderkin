@@ -20,4 +20,4 @@ Welcome to the b7a11 Toy Marketplace! This is the client-side repository for the
 
 Feel free to explore the live link and the repository to see the implementation details and code structure.
 
-If you have any questions or feedback, please don't hesitate to reach out. Enjoy the b7a11 Toy Marketplace!
+If you have any questions or feedback, please don't hesitate to reach out. Enjoy the WonderKin Toy Marketplace!
