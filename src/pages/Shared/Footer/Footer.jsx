@@ -30,8 +30,8 @@ const Footer = () => {
         <div className="items-center grid-flow-col">
         <img className="mx-auto h-12 w-auto" src={logo} alt="Logo" />
           <p>
-            ACME Industries Ltd. <br />
-            Providing reliable tech since 1992
+            Wonderkin <br />
+            Discover the Magic Within
           </p>
         </div>
         <div className="md:place-self-center md:justify-self-end">
