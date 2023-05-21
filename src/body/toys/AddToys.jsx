@@ -132,7 +132,7 @@ export default function AddToys() {
 
         <textarea
           {...register("description")}
-          placeholder="Bio"
+          placeholder="Detail description"
           className="textarea textarea-bordered block w-full h-[16vh] my-4"
         ></textarea>
         <button className="btn block w-full bg-[#406147] hover:bg-[#07500a] border-none">
