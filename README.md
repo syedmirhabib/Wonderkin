@@ -1,11 +1,10 @@
 # b7a11-toy-marketplace-client-side-syedmirhabib
 
-Welcome to the b7a11 Toy Marketplace! This is the client-side repository for the project.
+Welcome to the WonderKin Toy Marketplace! This is the client-side repository for the project.
 
-- Live Link: [petitmondeplay.web.app](https://petitmondeplay.web.app)
+- Live Link: [WonderKin](https://pee-tee-mawnd.web.app/)
 - Server Repo Link: [GitHub](https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-syedmirhabib)
 - Client Repo Link: [GitHub](https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-client-side-syedmirhabib)
-- Vercel Server Link: [Vercel](https://p-tit-monde-server.vercel.app/)
 
 ## Features
 
