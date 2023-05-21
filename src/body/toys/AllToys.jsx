@@ -48,7 +48,7 @@ export default function AllToys() {
         <Outlet />
 
         {toys.length > 0 ? (
-          <table className="w-full table-auto" id="myTable">
+          <table className="w-full table-auto border border-gray-300" id="myTable">
             <thead>
               <tr className="border-b">
                 <th className="bg-[#f6ffe5]"></th>
@@ -90,8 +90,11 @@ export default function AllToys() {
                   <td>{data.category}</td>
                   <td>{data.price}</td>
                   <td>{data.quantity}</td>
-                  <td>
-                    <Link to={`/all-toys/${data._id}`} className="btn">
+                  <td className="text-center">
+                    <Link
+                      to={`/all-toys/${data._id}`}
+                      className="btn bg-[#406147] hover:bg-[#07500a]"
+                    >
                       View Details
                     </Link>
                   </td>
