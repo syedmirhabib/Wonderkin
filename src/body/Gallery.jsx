@@ -15,12 +15,12 @@ const Gallery = () => {
   ];
 
   return (
-    <div className="my-8">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+    <div className="my-8 mx-auto max-w-6xl flex justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {images.map((image) => (
           <div
             key={image.id}
-            className="bg-gray-200 p-4 rounded-lg flex items-center justify-center"
+            className="bg-gray-200 p-2 rounded-lg flex items-center justify-center"
           >
             <img
               src={image.src}
