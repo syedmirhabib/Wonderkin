@@ -169,7 +169,7 @@ function App() {
 
      {/* Galley Section Start */}
 
-     <section className="my-32">
+     <section className="my-32" data-aos="fade-up">
         <h1 className="text-4xl font-bold text-center underline underline-offset-8 text-[#406147] mb-12">
           Gallery
         </h1>
@@ -181,7 +181,7 @@ function App() {
 
       {/* Shop By Category Start */}
 
-      <section>
+      <section data-aos="fade-up">
         <h1 className="text-2xl font-bold text-center mt-44 text-[#406147] underline decoration-4 underline-offset-[10px]">
           Shop by category
         </h1>
@@ -224,7 +224,7 @@ function App() {
 
       {/* New Section 1 Start */}
 
-      <section>
+      <section data-aos="zoom-in" data-aos-easing="ease-in-back">
   <div className="container mx-auto px-4 py-20">
     <div className="rounded-lg overflow-hidden shadow-lg bg-gradient-to-bl from-[#7f95ec] to-[#4d62ab] flex flex-col sm:flex-row">
       <div className="w-full sm:w-3/5 p-8">
