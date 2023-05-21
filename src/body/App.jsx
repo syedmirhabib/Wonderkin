@@ -170,12 +170,15 @@ function App() {
      {/* Galley Section Start */}
 
      <section className="my-32" data-aos="fade-up">
-        <h1 className="text-4xl font-bold text-center underline underline-offset-8 text-[#406147] mb-12">
-          Gallery
-        </h1>
+  <div className="container mx-auto px-4 lg:px-8 py-20">
+    <h1 className="text-4xl font-bold text-center underline underline-offset-8 text-[#406147] mb-12">
+      Gallery
+    </h1>
 
-        <Gallery></Gallery>
-      </section>
+    <Gallery></Gallery>
+  </div>
+</section>
+
 
       {/* Galley Section END */}
 
